@@ -2,7 +2,7 @@
 
 This project implements a classic Pong game using **Pygame**, where one of the paddles is controlled by an AI agent trained via **Deep Q-Learning (DQN)** using **PyTorch**.
 
-![pong-preview](https://upload.wikimedia.org/wikipedia/commons/1/1b/Pong.gif)
+![pong-preview](Pong.gif)
 
 ### 🎯 Features
 
