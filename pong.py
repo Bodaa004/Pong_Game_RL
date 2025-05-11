@@ -169,7 +169,7 @@ class PongGame:
         pygame.draw.rect(self.display, WHITE, (self.ball.x, self.ball.y, BALL_SIZE, BALL_SIZE))  
 
         # Draw the scores and total reward on screen
-        player_text = font.render(f"Player: {self.player_score}", True, WHITE)
+        player_text = font.render(f"{'Learner' if self.ai_mode else 'Player'}: {self.enemy_score}", True, WHITE)
         enemy_text = font.render(f"{'AI' if self.ai_mode else 'Player 2'}: {self.enemy_score}", True, WHITE)
         reward_text = font.render(f"Total Reward: {self.total_reward:+0.3f}", True, WHITE)
 
